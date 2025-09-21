@@ -1,8 +1,14 @@
 body {
     scroll-behavior: smooth;
 }
-
 input:focus, textarea:focus {
     outline: none;
     border-color: #6366f1;
+}
+/* Modal display */
+#modal {
+    display: flex;
+}
+#modal.hidden {
+    display: none;
 }
