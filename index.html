@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areeba Lone | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-6 bg-gray-800 sticky top-0 z-50">
+        <div class="text-2xl font-bold">Areeba Lone</div>
+        <div class="space-x-6">
+            <a href="#about" class="hover:text-indigo-400">About</a>
+            <a href="#projects" class="hover:text-indigo-400">Projects</a>
+            <a href="#skills" class="hover:text-indigo-400">Skills</a>
+            <a href="#contact" class="hover:text-indigo-400">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center py-32 bg-gradient-to-r from-indigo-700 to-purple-700">
+        <h1 class="text-5xl font-bold mb-4">Hi, I'm Areeba Lone</h1>
+        <p class="text-xl mb-8">Business Analyst | Python & SQL Developer</p>
+        <a href="#projects" class="bg-white text-gray-900 px-6 py-3 rounded hover:bg-indigo-500 hover:text-white transition">View My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 max-w-4xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-10">About Me</h2>
+        <p class="text-lg text-gray-300 text-center">I'm Areeba Lone, an aspiring Business Analyst and Python/SQL developer. I enjoy building data-driven solutions and interactive projects that showcase insights in an intuitive way. I love learning and applying my skills to solve real-world problems.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-gray-800">
+        <h2 class="text-4xl font-bold text-center mb-10">Projects</h2>
+        <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+
+            <!-- SQL Project -->
+            <div class="bg-gray-700 p-6 rounded hover:scale-105 transform transition">
+                <h3 class="text-2xl font-bold mb-2">E-commerce Sales Analysis (SQL)</h3>
+                <p class="text-gray-300 mb-4">Analyzed sales data to identify trends, peak periods, and product performance using SQL queries and visualizations.</p>
+                <a href="https://github.com/areeba-lone" target="_blank" class="text-indigo-400 hover:underline">View on GitHub</a>
+            </div>
+
+            <!-- Python Project -->
+            <div class="bg-gray-700 p-6 rounded hover:scale-105 transform transition">
+                <h3 class="text-2xl font-bold mb-2">Movie Recommendation Engine (Python)</h3>
+                <p class="text-gray-300 mb-4">Built a Python-based recommendation system that suggests movies based on user preferences using pandas and scikit-learn.</p>
+                <a href="https://github.com/areeba-lone" target="_blank" class="text-indigo-400 hover:underline">View on GitHub</a>
+            </div>
+
+            <!-- Python Project -->
+            <div class="bg-gray-700 p-6 rounded hover:scale-105 transform transition">
+                <h3 class="text-2xl font-bold mb-2">Web Scraping Tool (Python)</h3>
+                <p class="text-gray-300 mb-4">Automated data extraction from websites using BeautifulSoup and Python, storing results in CSV for analysis.</p>
+                <a href="https://github.com/areeba-lone" target="_blank" class="text-indigo-400 hover:underline">View on GitHub</a>
+            </div>
+
+            <!-- SQL Project -->
+            <div class="bg-gray-700 p-6 rounded hover:scale-105 transform transition">
+                <h3 class="text-2xl font-bold mb-2">Social Media Sentiment Analysis (SQL)</h3>
+                <p class="text-gray-300 mb-4">Used SQL to analyze social media posts and gauge public sentiment trends over time.</p>
+                <a href="https://github.com/areeba-lone" target="_blank" class="text-indigo-400 hover:underline">View on GitHub</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 max-w-4xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-10">Skills</h2>
+        <div class="grid md:grid-cols-3 gap-10 text-center">
+            <div>
+                <p class="text-xl font-semibold mb-2">Python</p>
+                <div class="w-full bg-gray-700 h-4 rounded">
+                    <div class="bg-indigo-500 h-4 rounded w-4/5"></div>
+                </div>
+            </div>
+            <div>
+                <p class="text-xl font-semibold mb-2">SQL</p>
+                <div class="w-full bg-gray-700 h-4 rounded">
+                    <div class="bg-indigo-500 h-4 rounded w-4/5"></div>
+                </div>
+            </div>
+            <div>
+                <p class="text-xl font-semibold mb-2">Data Analysis</p>
+                <div class="w-full bg-gray-700 h-4 rounded">
+                    <div class="bg-indigo-500 h-4 rounded w-3/4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 bg-gray-800">
+        <h2 class="text-4xl font-bold text-center mb-10">Contact Me</h2>
+        <form class="max-w-2xl mx-auto flex flex-col gap-4">
+            <input type="text" placeholder="Your Name" class="p-3 rounded bg-gray-700 text-white border border-gray-600">
+            <input type="email" placeholder="Your Email" class="p-3 rounded bg-gray-700 text-white border border-gray-600">
+            <textarea placeholder="Your Message" class="p-3 rounded bg-gray-700 text-white border border-gray-600"></textarea>
+            <button type="submit" class="bg-indigo-500 py-3 rounded hover:bg-indigo-400 transition">Send Message</button>
+        </form>
+        <div class="text-center mt-6">
+            <a href="https://github.com/areeba-lone" target="_blank" class="text-indigo-400 mx-3 hover:underline">GitHub</a>
+            <a href="https://www.linkedin.com/in/areeba-lone-a2b936241/" target="_blank" class="text-indigo-400 mx-3 hover:underline">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-gray-900 text-gray-400">
+        © 2025 Areeba Lone. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
